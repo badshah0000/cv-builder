@@ -1,0 +1,42 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="resume.css">
+
+</head>
+<body>
+  <div class="resume-container">
+    <div class="resume-output" id="resume-output">
+      <div class="header">
+        <img id="profile-picture" alt="Profile Picture" class="profile-picture">
+        <h1 id="name-output">Your Name</h1>
+        <p id="contact-output">Phone: Your Phone | Email: Your Email</p>
+      </div>
+      <section>
+        <h2>Education</h2>
+        <ul id="education-output"></ul>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul id="skills-output"></ul>
+      </section>
+
+      <section>
+        <h2>Work Experience</h2>
+        <ul id="experience-output"></ul>
+      </section>
+    </div>
+
+    <button id="download-pdf">Download as PDF</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="resume.js"></script>
+  <link rel="stylesheet" href="resume.ts">
+</body>
+</html>
